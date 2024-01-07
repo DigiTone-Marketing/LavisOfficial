@@ -9,7 +9,8 @@ stylish portfolio section and other features you will only find on premium html 
 Built with clean and organized code, this template is very easy to customize.
 
 ==================================================================================================
-
+#0446a4 lavis blue
+#39b54a glint green
 
 USING THE MAILCHIMP FORM:
 
