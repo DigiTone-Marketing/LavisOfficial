@@ -274,7 +274,9 @@
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerPadding:0
+            centerPadding:0,
+            autoplaySpeed: 4000,
+            autoplay: true,
             });
           });
           
@@ -289,6 +291,7 @@
             adaptiveHeight: true,
             pauseOnFocus: false,
             autoplaySpeed: 1500,
+            autoplay: true,
             responsive: [
                 {
                     breakpoint: 900,
