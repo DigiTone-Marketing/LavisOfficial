@@ -210,16 +210,75 @@
     var clSlickSlider = function() {
 
         $('.clients').slick({
+            slidesToShow: 6,
+            dots:false,
+            centerMode: true,
             arrows: false,
             dots: true,
-            infinite: false,
-            slidesToShow: 6,
+            infinite: true,
             slidesToScroll: 2,
-            // autoplay: true,
-            pauseOnFocus: false,
-            autoplaySpeed: 2000,
-           
+            responsive: [
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        arrows: false,
+                        dots: true
+                    }
+                }
+            ]
         });
+
+        $('.bannerSlides').slick({
+            arrows: false,
+            centerMode: true,
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            adaptiveHeight: false,
+            pauseOnFocus: false,
+            autoplaySpeed: 3000,
+            // autoplay: true,
+            responsive: [
+                {
+                    breakpoint: 900,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        arrows: false,
+                        dots: true
+                    }
+                }
+            ]
+        });
+
+        $(document).ready(function(){
+            $('.carousel').slick({
+            slidesToShow: 1,
+            dots:false,
+            centerMode: true,
+            arrows: false,
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerPadding:0
+            });
+          });
+          
+          // Slick version 1.5.8
 
         $('.testimonials').slick({
             arrows: true,
