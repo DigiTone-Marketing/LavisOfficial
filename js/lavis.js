@@ -1,4 +1,9 @@
-// document.addEventListener("DOMContentLoaded", function () {
+function redirectToAnotherPage() {
+  window.location.href = "brand.html";
+}
+document.addEventListener("DOMContentLoaded", function () {
+
+
 //   async function fetchImages(folder) {
 //     await fetch("images")
 //       .then((response) => {
@@ -90,4 +95,4 @@
 //   }
 
 //   // UpdateGalleryImages();
-// });
+});
