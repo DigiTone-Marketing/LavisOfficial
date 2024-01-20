@@ -265,6 +265,20 @@
         });
 
         $(document).ready(function(){
+            $('.logocarousel').slick({
+            centerMode: true,
+            arrows: false,
+            dots: true,
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            centerPadding:0,
+            autoplaySpeed: 300,
+            autoplay: true,
+            });
+          });
+
+        $(document).ready(function(){
             $('.carousel').slick({
             slidesToShow: 1,
             dots:false,
