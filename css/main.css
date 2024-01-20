@@ -3630,3 +3630,31 @@ footer .row {
   .s-about{
     background: linear-gradient(to right, #1a2247, #32298d, #0d1f33);
   }
+
+
+  /* width and height for the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* handle on hover */
+  ::-webkit-scrollbar:hover {
+    background: #e1e1e1;
+  }
+  
+  /* handle on scrollbar dragging */
+  ::-webkit-scrollbar-thumb:active {
+    background: #888;
+  }
+  
+  /* scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 10px;
+  }
+  
+  /* scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(36, 35, 35);
+  }
+  
