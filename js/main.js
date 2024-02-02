@@ -265,16 +265,33 @@
         });
 
         $(document).ready(function(){
+            $('.BottomBannercarousel').slick({
+            centerMode: true,
+            arrows: false,
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerPadding:0,
+            autoplaySpeed: 1000,
+            autoplay: true,
+            pauseOnFocus: false,
+
+            });
+          });
+        $(document).ready(function(){
             $('.logocarousel').slick({
             centerMode: true,
             arrows: false,
-            dots: true,
+            dots: false,
             infinite: true,
-            slidesToShow: 5,
+            slidesToShow: 2,
             slidesToScroll: 1,
             centerPadding:0,
-            autoplaySpeed: 300,
+            autoplaySpeed: 1000,
             autoplay: true,
+            pauseOnFocus: false,
+
             });
           });
 
@@ -284,13 +301,14 @@
             dots:false,
             centerMode: true,
             arrows: false,
-            dots: false,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             centerPadding:0,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 2000,
             autoplay: true,
+            pauseOnFocus: false,
+
             });
           });
           
