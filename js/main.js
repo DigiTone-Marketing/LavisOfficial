@@ -294,6 +294,21 @@
 
             });
           });
+        $(document).ready(function(){
+            $('.primarylogocarousel').slick({
+            centerMode: true,
+            arrows: false,
+            dots: false,
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            centerPadding:0,
+            autoplaySpeed: 1000,
+            autoplay: true,
+            pauseOnFocus: false,
+
+            });
+          });
 
         $(document).ready(function(){
             $('.carousel').slick({
